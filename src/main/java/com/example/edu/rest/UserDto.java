@@ -1,5 +1,7 @@
 package com.example.edu.rest;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class UserDto {
     private String id;
     private String name;
